@@ -6,7 +6,6 @@ provider "aws" {
   secret_key = "${var.secret_key}"
   region     = "${var.region}"
 }
-
 resource "aws_launch_configuration" "example" {
   image_id        = "ami-0c67212f0e9b7b73b"
   instance_type   = "t2.micro"

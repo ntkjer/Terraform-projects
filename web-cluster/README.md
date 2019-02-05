@@ -13,6 +13,12 @@ or create a file called ```terraform.tfvars``` and reference access credentials 
 
 ## Instructions
 
+Initialize Terraform env
+
+```
+terraform init
+```
+
 Validate the templates:
 
 ```
