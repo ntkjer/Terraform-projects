@@ -12,3 +12,15 @@ brew install terragrunt
 
 Which allows us to handle shared locks on state files. Terragrunt interfaces with
 Terraform and takes care of locking schemes for us!
+
+##Configs
+
+All terragrunt resources are not saved in a ```.terragrunt``` file because this will be deprecated in future versions.
+Therefore, we should add our ```.terragrunt``` configurations in our secret file: ```terraform.tfvars```
+
+## Execution
+```
+terragrunt init
+terragrunt apply
+terragrunt destroy
+```
