@@ -17,6 +17,3 @@ resource "aws_s3_bucket" "terraform_state" {
     }
 }
 
-output "s3_bucket_arm" {
-  value = "${aws_s3_bucket.terraform_state.arn}"
-}
